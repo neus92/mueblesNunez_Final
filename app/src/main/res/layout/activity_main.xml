@@ -78,7 +78,6 @@
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FF5100"
-                    android:onClick="LoadSession"
                     android:text="Iniciar Sesión"
                     app:cornerRadius="25dp" />
 
@@ -142,7 +141,8 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:onClick="info"
-                    app:srcCompat="@drawable/info" />
+                    app:srcCompat="@drawable/info"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
 
             </LinearLayout>

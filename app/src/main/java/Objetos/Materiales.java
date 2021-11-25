@@ -6,7 +6,7 @@ import java.util.Objects;
 public class Materiales {
     private int id;
     private String[] material = {"Americano", "Vintage", "Clasico","Moderno","Rustico"};
-    private int [] precios = {500000,700000,650000,800000,1000000};
+    private int [] precios = {500000,700000,650000,800000,900000};
 
     public Materiales()
     {}
