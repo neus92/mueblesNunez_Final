@@ -50,6 +50,7 @@ public class Home_activity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
     public void material(View view)
     {
         Intent i = new Intent(this, Materiales_act.class);
@@ -59,4 +60,10 @@ public class Home_activity extends AppCompatActivity {
         i.putExtras(bun); // Envío el paquete a través del intent.
         startActivity(i);
     }
+    public void agregarAgenda(View view)
+    {
+        Intent i = new Intent (getBaseContext(),Agenda_act.class);
+        startActivity(i);
+    }
+
 }

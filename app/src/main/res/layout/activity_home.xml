@@ -9,8 +9,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView3"
-        android:layout_width="384dp"
-        android:layout_height="301dp"
+        android:layout_width="402dp"
+        android:layout_height="355dp"
         android:layout_marginTop="40dp"
         app:cardCornerRadius="25dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,8 +46,8 @@
 
                 <VideoView
                     android:id="@+id/vw"
-                    android:layout_width="368dp"
-                    android:layout_height="210dp"
+                    android:layout_width="388dp"
+                    android:layout_height="236dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.503"
@@ -60,26 +60,13 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView4"
-        android:layout_width="387dp"
-        android:layout_height="64dp"
-        android:layout_marginTop="40dp"
-        app:cardCornerRadius="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView3" >
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
         android:layout_width="384dp"
         android:layout_height="152dp"
-        android:layout_marginTop="40dp"
         app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView4">
+        app:layout_constraintTop_toBottomOf="@+id/cardView3">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -109,11 +96,12 @@
 
                     <Button
                         android:id="@+id/button"
-                        android:layout_width="160dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="Button"
-                        app:cornerRadius="25dp"/>
+                        android:onClick="agregarAgenda"
+                        android:text="Agregar Agenda"
+                        app:cornerRadius="25dp" />
                 </TableRow>
 
                 <TableRow
@@ -134,9 +122,9 @@
                         android:layout_width="160dp"
                         android:layout_height="50dp"
                         android:layout_margin="10dp"
-                        android:text="Button"
-                        tools:ignore="TouchTargetSizeCheck"
-                        app:cornerRadius="25dp"/>
+                        android:text="Ver Agenda"
+                        app:cornerRadius="25dp"
+                        tools:ignore="TouchTargetSizeCheck" />
                 </TableRow>
 
             </TableLayout>

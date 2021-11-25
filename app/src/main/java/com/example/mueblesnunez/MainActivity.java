@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
             switch (usuario)
             {
-                case "e":
+                case "edu":
                     //inicio de sesion
                     if(usuario.equals(userobj) && password.equals(passobj))
                     {
