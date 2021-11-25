@@ -10,8 +10,8 @@ public class Administrador {
 
     public Administrador()
     {
-        user = "e";
-        pass = "1";
+        user = "edu";
+        pass = "123";
     }
 
     public Administrador(int id, String user, String pass) {
