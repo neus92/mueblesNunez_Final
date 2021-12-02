@@ -23,7 +23,7 @@ public class Home_activity extends AppCompatActivity {
 
         //Obtego la ruta
 
-        String ruta = "android.resource://" + getPackageName()+"/" + R.raw.video;
+        String ruta = "android.resource://" + getPackageName()+"/" + R.raw.videos;
         Uri uri = Uri.parse(ruta); // Parseo la ruta
         videoView.setVideoURI(uri);// le paso la ruta al VideoView
         videoView.start();
@@ -63,6 +63,17 @@ public class Home_activity extends AppCompatActivity {
     public void agregarAgenda(View view)
     {
         Intent i = new Intent (getBaseContext(),Agenda_act.class);
+        startActivity(i);
+    }
+
+    public void galeria(View view)
+    {
+        Intent i = new Intent (getBaseContext(),Galeria_act.class);
+        startActivity(i);
+    }
+    public void mail(View view)
+    {
+        Intent i = new Intent (getBaseContext(),Mail_act.class);
         startActivity(i);
     }
 

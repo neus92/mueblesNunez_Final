@@ -113,7 +113,8 @@
                         android:layout_width="160dp"
                         android:layout_height="50dp"
                         android:layout_margin="10dp"
-                        android:text="INFORMACIÓN"
+                        android:onClick="galeria"
+                        android:text="GALERIA"
                         app:cornerRadius="25dp"
                         tools:ignore="TouchTargetSizeCheck" />
 
@@ -122,7 +123,8 @@
                         android:layout_width="160dp"
                         android:layout_height="50dp"
                         android:layout_margin="10dp"
-                        android:text="Ver Agenda"
+                        android:onClick="mail"
+                        android:text="Enviar Mail"
                         app:cornerRadius="25dp"
                         tools:ignore="TouchTargetSizeCheck" />
                 </TableRow>

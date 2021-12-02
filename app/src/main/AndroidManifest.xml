@@ -16,6 +16,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MueblesNunez">
         <activity
+            android:name=".Mail_act"
+            android:exported="true" />
+        <activity
+            android:name=".ImagenFull_act"
+            android:exported="true"
+            android:parentActivityName=".Home_activity" />
+        <activity
+            android:name=".Galeria_act"
+            android:exported="true" />
+        <activity
             android:name=".Agenda_act"
             android:exported="true" />
         <!--
